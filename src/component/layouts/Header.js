@@ -9,9 +9,9 @@ function Header() {
 
 <nav className="navbar navbar-expand-lg navigation-wrap">
     <div className="container">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
             <img src="images/logo.png" alt=""/>
-        </a>
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
              <span className="navbar-toggler-icon"></span>
@@ -20,19 +20,19 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">Home</a>
+                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/about">About Us</a>
+                    <Link className="nav-link" to="/about">About Us</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/contact">Contact Us</a>
+                    <Link className="nav-link" to="/contact">Contact Us</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/explorefoods">Explore Foods</a>
+                    <Link className="nav-link" to="/explorefoods">Explore Foods</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">Reviews</a>
+                    <Link className="nav-link" to="/">Reviews</Link>
                 </li>
                 <li>
                     <button className="main-btn">1200 345 123</button>
